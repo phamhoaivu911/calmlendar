@@ -4,7 +4,8 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css && tsc"
+    "build": "tsc",
+    "prebuild": "tailwindcss -i ./src/styles/index.css -o ./dist/styles/index.css"
   },
   "devDependencies": {
     "@types/react": "^18.0.1",

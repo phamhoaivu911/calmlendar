@@ -8,7 +8,7 @@ export default {
 
 const Template = (args) => <Calmlendar {...args} />;
 
-export const WeekView = Template.bind({});
-WeekView.args = {
-  name: 'WeekView',
+export const MonthView = Template.bind({});
+MonthView.args = {
+  name: 'MonthView',
 };
